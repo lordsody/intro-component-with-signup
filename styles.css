@@ -1,0 +1,120 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Arial', sans-serif;
+    background-color: #ff7979;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width: 1200px;
+    background: url('images/bg-intro-desktop.png') no-repeat center center/cover;
+    padding: 20px;
+    border-radius: 10px;
+  }
+  
+  .container-text {
+    max-width: 500px;
+    margin-right: 20px;
+    color: white;
+  }
+  
+  .container-text h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+  }
+  
+  .container-text p {
+    font-size: 1.125rem;
+    line-height: 1.5;
+  }
+  
+  .container-form {
+    background-color: white;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+    position: relative;
+  }
+  
+  .container-form h4 {
+    background-color: black; /* Updated to black */
+    color: white; /* Text color to white */
+    font-size: 1rem;
+    margin-bottom: 20px;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+  }
+  
+  .container-form span {
+    font-weight: bold;
+    color: #ff7979;
+  }
+  
+  .input-group {
+    margin-bottom: 20px;
+    position: relative;
+  }
+  
+  .input-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .input-group .error-message {
+    display: none;
+    color: #ff7979;
+    font-size: 0.875rem;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    transform: translateY(5px);
+    display: flex;
+    align-items: center;
+  }
+  
+  .error-message img {
+    width: 16px;
+    height: 16px;
+    margin-right: 5px;
+  }
+  
+  .container-form button {
+    background-color: #38cc8c;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+  }
+  
+  .container-form small {
+    display: block;
+    margin-top: 10px;
+    font-size: 0.875rem;
+    text-align: center;
+    color: #777;
+  }
+  
+  .container-form small span {
+    color: #ff7979;
+    cursor: pointer;
+  }
